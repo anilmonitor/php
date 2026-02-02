@@ -94,6 +94,7 @@
         $students = array("Anil", "Rahul", "Manish", "Manjeet");
         echo $students[0];
 
+        echo "<br>";
 
 
         // loop in PHP 
@@ -103,15 +104,40 @@
 // iii. do while loop
 // iv. foreach loop 
         
+
         // 1.) for loop
-        for ($i = 0; $i <= 5; $i++) {
+        for ($i = 1; $i <= 5; $i++) {
             echo $i;
             echo "<br>";
 
-        };
+        }
+        ;
 
-       
+
+
+        echo "while loop";
+        echo "<br>";
+        // 2.) while loop 
+        $i = 1;
+        while ($i < 5) {
+            echo $i;
+            echo "<br>";
+            $i++;
+        }
+
+        // 3.) do while loop 
         
+        $i = 1;
+        do {
+            echo $i;
+            echo " ";
+            echo "Hello guyss";
+            echo "<br>";
+            $i++;
+        } while ($i <= 5)
+
+
+
 
 
 
