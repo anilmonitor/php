@@ -76,6 +76,21 @@
         echo "<br>";
 
 
+        //if else
+        
+        $Age = 1;
+        if ($Age >= 18) {
+            echo "Can vote";
+        } else if ($Age == 1) {
+
+            echo "You are minner";
+        } else {
+
+            echo "Can't Vote";
+        }
+
+
+
         ?>
 
 
