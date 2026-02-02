@@ -136,9 +136,9 @@
             $i++;
         } while ($i <= 5);
 
-        // 4.) foreach loop
+        // 4.) foreach loop --> This loop is best for looping array
         $collegeStudent = $students = ["Aman", "Rohit", "Anil", "Neha"];
-        
+
         foreach ($collegeStudent as $student) {
             echo "<br>";
             echo $student;
