@@ -96,6 +96,24 @@
 
 
 
+        // loop in PHP 
+// There are 4 loop 
+// i. for loop 
+// ii. while loop 
+// iii. do while loop
+// iv. foreach loop 
+        
+        // 1.) for loop
+        for ($i = 0; $i <= 5; $i++) {
+            echo $i;
+            echo "<br>";
+
+        };
+
+       
+        
+
+
 
         ?>
     </div>
