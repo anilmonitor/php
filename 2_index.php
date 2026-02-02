@@ -89,11 +89,15 @@
             echo "Can't Vote";
         }
 
+        echo "<br>";
+        //Array in php
+        $students = array("Anil", "Rahul", "Manish", "Manjeet");
+        echo $students[0];
+
+
 
 
         ?>
-
-
     </div>
 
 </body>
