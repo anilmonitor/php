@@ -114,7 +114,6 @@
         ;
 
 
-
         echo "while loop";
         echo "<br>";
         // 2.) while loop 
@@ -126,7 +125,8 @@
         }
 
         // 3.) do while loop 
-        
+        echo "do while loop";
+        echo "<br>";
         $i = 1;
         do {
             echo $i;
@@ -134,11 +134,16 @@
             echo "Hello guyss";
             echo "<br>";
             $i++;
-        } while ($i <= 5)
+        } while ($i <= 5);
 
+        // 4.) foreach loop
+        $collegeStudent = $students = ["Aman", "Rohit", "Anil", "Neha"];
+        
+        foreach ($collegeStudent as $student) {
+            echo "<br>";
+            echo $student;
 
-
-
+        }
 
 
         ?>
